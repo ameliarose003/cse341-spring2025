@@ -1,3 +1,3 @@
-exports.showName = (req, res) => {
-    res.send('Jacob Halsey');
-}
+// exports.showName = (req, res) => {
+//     res.send('Jacob Halsey');
+// }

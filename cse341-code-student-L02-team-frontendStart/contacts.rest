@@ -1,0 +1,7 @@
+
+### All Contacts
+GET https://localhost:3000/contacts
+
+### Single Contact
+GET httpa://localhost:3000/contacts/681c226099f0016aefefa6dc
+

@@ -5,5 +5,6 @@ GET http://localhost:3000/contacts
 ### Single Contact
 GET http://localhost:3000/contacts/681c226099f0016aefefa6dc
 
-GET https://cse341-spring2025-rz1w.onrender.com/
-GET https://cse341-spring2025-rz1w.onrender.com/681c226099f0016aefefa6dc
+
+GET https://cse341-spring2025-rz1w.onrender.com/contacts
+GET https://cse341-spring2025-rz1w.onrender.com/contacts/681c226099f0016aefefa6dc

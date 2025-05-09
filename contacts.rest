@@ -3,8 +3,10 @@
 GET http://localhost:8080/contacts
 
 ### Single Contact
-GET http://localhost:8080/contacts/681c226099f0016aefefa6dc
+GET http://localhost:8080/contacts/681c21a199f0016aefefa6ce
 
+### All contacts
+GET https://cse341-spring2025-rz1w.onrender.com/contacts HTTP/1.1
 
-GET https://cse341-spring2025-rz1w.onrender.com/contacts
+### single contact
 GET https://cse341-spring2025-rz1w.onrender.com/contacts/681c226099f0016aefefa6dc

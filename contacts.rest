@@ -10,3 +10,30 @@ GET https://cse341-spring2025-rz1w.onrender.com/contacts HTTP/1.1
 
 ### single contact
 GET https://cse341-spring2025-rz1w.onrender.com/contacts/681c226099f0016aefefa6dc
+
+### POST
+POST http://localhost:8080/contacts
+Content-Type: application/json
+
+{
+    "firstName": "Ami",
+    "lastName": "Cross",
+    "email": "amicross@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "2003-03-09"
+}
+
+### PUT (replace <681c229799f0016aefefa6de>)
+PUT http://localhost:8080/contacts/681c229799f0016aefefa6de
+Content-Type: application/json
+
+{
+    "firstName": "James",
+    "lastName": "Sperry",
+    "email": "jsperry4949@yahoo.com",
+    "favoriteColor": "Red",
+    "birthday": "1976-05-12"
+}
+
+### DELETE (replace <681c229799f0016aefefa6de>)
+DELETE http://localhost:8080/contacts/681c229799f0016aefefa6de
